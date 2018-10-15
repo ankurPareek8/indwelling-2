@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'montserrat-light';
+    src: url(Fonts/Montserrat-Light.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url(Fonts/Montserrat-Regular.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url(Fonts/Montserrat-Medium.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'montserrat-semibold';
+    src: url(Fonts/Montserrat-SemiBold.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url(Fonts/Montserrat-Bold.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url(../Fonts/BebasNeue Bold.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'andalusia';
+    src: url(../Fonts/Andalusia.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* This is the container's dimension and other attributes */
+#container {
+  width: 100%;
+}
+
+body, html {
+    width: 100%;
+    margin:0;
+}
+
+.backgroundimage {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  opacity: 0.05;
+}
+
+.logocontainer {
+
+}
+
+.websitelogo {
+  width: 6%;
+  position: absolute;
+  top: 11px;
+  left: 68px;
+}
+
+.navlinks {
+  position: absolute;
+  left: 350px;
+  top: 37px;
+  font-size: 15px;
+}
+
+ul li a {
+  font-family: 'montserrat-light';
+  font-weight: 100;
+}
+
+.section1 {
+  background-color: none;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.contactform {
+  border: 2px solid red;
+}
+
+#form {
+  align-items: center;
+  position: absolute;
+  left: 300px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+h2 , label {
+  display: block;
+  font-family: 'montserrat-regular';
+  font-size: 12px;
+  font-weight: 100;
+  color: black;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: 'andalusia';
+  font-weight: 100;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
+
+input {
+  max-width: 650px;
+  width: 650px;
+  height: 3rem;
+  border: 0;
+  background-color: lightgrey;
+}
+
+textarea {
+  display: block;
+  max-width: 650px;
+  width: 650px;
+  height: 150px;
+  border: 0;
+  padding: 0;
+  background-color: lightgrey;
+}
+
+button {
+  background-color: orange;
+  font-family: 'montserrat-light';
+  font-size: 20px;
+  font-weight: 100;
+  max-width: 650px;
+  width: 400%;
+  border: 0;
+  color: #FDFEFF;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #FDFEFF;
+  color: #98554F;
+}
